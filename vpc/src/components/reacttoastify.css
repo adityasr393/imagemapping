@@ -1,0 +1,75 @@
+/* polygontool.css */
+
+/* Style for the main container of the component */
+.image {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Style for the "New Polygon" button */
+  .btn-new-polygon {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .btn-new-polygon:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the coordinates and polygons display */
+  .coordinates {
+    font-size: 16px;
+  }
+  
+  .coordinates p {
+    margin: 5px 0;
+  }
+  
+  .polygons {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .polygons h3 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .polygons p {
+    margin: 5px 0;
+  }
+  
+  /* Style for the "Capture Image" button */
+  .btn-capture {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-capture:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Style for the "View" link */
+  .btn-view {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+  }
+  
+  .btn-view:hover {
+    background-color: #1d2124;
+  }
+  

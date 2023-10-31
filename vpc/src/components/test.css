@@ -1,0 +1,33 @@
+/* App.css */
+.annotatable-image {
+    max-width: 100%;
+  }
+  
+  .annotation-canvas {
+    position: relative;
+    width: 100%;
+  }
+  
+  .annotation-marker {
+    position: absolute;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  
+  .annotation-marker:hover .tooltip {
+    display: block;
+  }
+  

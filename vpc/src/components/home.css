@@ -1,0 +1,57 @@
+.page {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  color: orange;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.selection {
+  position: absolute;
+  border: 1px dashed red;
+  background: rgba(0, 0, 255, 0.3); /* Blue background */
+}
+
+.coordinates {
+  position: absolute;
+  background: white;
+  color: black;
+  top: -30px;
+  left: 0;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.remove-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.remove-btn:hover {
+  background: grey;
+}
+.remove-btn {
+  background: orange !important;
+  color: white !important;
+  border: none !important;
+  padding: 5px 10px !important;
+  cursor: pointer !important;
+  margin-left: 10px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.remove-btn:hover {
+  background: grey !important;
+}
